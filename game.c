@@ -16,6 +16,7 @@
 //place function prototypes here
 
 void folksam(void);
+void jgFun(void);
 
 
 
@@ -241,6 +242,7 @@ int main(int argc, char *argv[])
 			}
 			case 42:
 			{
+				jgFun();
 				puts("room42");
 				break;
 			}
@@ -428,4 +430,7 @@ int main(int argc, char *argv[])
 void folksam(void) 
 {
 	printf("EV\n");
+void jgFun(void)
+{
+	printf("JGB");	
 }
