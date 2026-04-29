@@ -63,7 +63,7 @@ void printInitialsAjewett(void);
 
 void jgFun(void);
 
-
+void GuckMan(void);
 
 
 void brooklynstitt(void);
@@ -227,6 +227,7 @@ int main(int argc, char *argv[])
 			case 26:
 			{
 				puts("room26");
+				GuckMan();
 				break;
 			}
 			case 27:
@@ -605,6 +606,10 @@ void jgFun(void)
 {
 	printf("JGB");	
 
+}
+void GuckMan(void)
+{
+	printf("EG")
 }
 
 
