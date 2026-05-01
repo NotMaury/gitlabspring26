@@ -2,6 +2,9 @@
 //GP+
 //LS
 //Ryan Rodriguez
+//Kristopher Willett
+//
+//
 //
 void ANFUN(void);
 
@@ -46,7 +49,11 @@ void PogoAM(void);
 void room49game(void);
 
 void dleyva14(void);
+
+void kwillett48(void);
+
 void ncInitial(void);
+
 
 
 int main(int argc, char *argv[])
@@ -328,6 +335,7 @@ int main(int argc, char *argv[])
 			}
 			case 48:
 			{
+				kwillett48();
 				puts("room48");
 				break;
 			}
@@ -645,10 +653,17 @@ void dleyva14(void)
 	printf("DL\n");
 }
 
+
+void kwillett48(void)
+{
+	printf("KDW");
+}
+
 void ncInitial(void)
 {
 	printf("NC");
 }
+
 
 
 
